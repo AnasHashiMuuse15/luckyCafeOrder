@@ -27,7 +27,7 @@ namespace LuckyCafeOrder
         {
             string customerName = txtName.Text.Trim();
 
-            if (customerName == "")
+            if (customerName  "")
             {
                 MessageBox.Show("Please enter customer name.");
                 return;
